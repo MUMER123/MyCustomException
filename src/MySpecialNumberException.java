@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class MySpecialNumberException {
+public class MySpecialNumberException extends Exception{
+    public MySpecialNumberException(String message){
+        super(message);
+    }
 }
